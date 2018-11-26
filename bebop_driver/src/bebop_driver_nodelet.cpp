@@ -179,6 +179,8 @@ void BebopDriverNodelet::onInit()
     // TODO(mani-monaj): Retry mechanism
   }
 
+  //bebop_ptr_->StopStreaming(); // stop video streaming	
+
   aux_thread_ptr_ = boost::make_shared<boost::thread>(
         boost::bind(&bebop_driver::BebopDriverNodelet::BebopDriverNodelet::AuxThread, this));
 

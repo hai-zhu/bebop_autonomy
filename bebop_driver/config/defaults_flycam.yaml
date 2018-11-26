@@ -27,6 +27,6 @@ publish_odom_tf: true
 odom_frame_id: "odom"
 cmd_vel_timeout: 0.2
 
-PilotingSettingsMaxTiltCurrent: 12
+PilotingSettingsMaxTiltCurrent: 15
 SpeedSettingsMaxVerticalSpeedCurrent: 1
-SpeedSettingsMaxRotationSpeedCurrent: 120
+#SpeedSettingsMaxRotationSpeedCurrent: 120
